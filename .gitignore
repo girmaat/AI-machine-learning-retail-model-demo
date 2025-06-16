@@ -1,0 +1,22 @@
+# Ignore virtual environments
+venv/
+environment/venv/
+
+# Ignore dataset files
+data/raw/
+data/interim/
+data/processed/
+
+# Ignore Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore logs or temp
+*.log
+*.tmp
+.DS_Store
+EOF
